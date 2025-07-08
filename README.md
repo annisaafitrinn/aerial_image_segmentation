@@ -3,9 +3,7 @@
 ## Bachground and Objectives
 On this project work, we are going to develop and evaluate deep learning models for semantic segmentation of drone-captured aerial images. Using the Swiss Drone and Okutama Drone datasets, we aim to accurately identify and classify multiple object classes in outdoor environments. The goal is to enhance automated scene understanding for applications such as environmental monitoring, agriculture, and safe drone navigation.
 
-The dataset used in this project are from https://www.kaggle.com/datasets/aletbm/swiss-drone-and-okutama-drone-datasets which consists of two drone image collections: the Swiss Drone Dataset and the Okutama Drone Dataset. The Swiss Drone Dataset contains 100 high-resolution images captured around Cheseaux-sur-Lausanne, Switzerland, at an approximate flight altitude of 80 meters using a senseFly eBee Classic drone (16MP, 4608 x 3456 resolution). The Okutama Drone Dataset includes 91 images taken near Okutama, west of Tokyo, Japan, at around 90 meters altitude using a DJI Phantom 4 (4K, 3840 x 2160 resolution). 
-
-Both datasets provide pixel-wise hand-labeled segmentation masks with 10 distinct classes: 
+The dataset used in this project are from https://www.kaggle.com/datasets/aletbm/swiss-drone-and-okutama-drone-datasets which consists of two drone image collections: the Swiss Drone Dataset and the Okutama Drone Dataset. Both datasets provide pixel-wise hand-labeled segmentation masks with 10 distinct classes: 
 1. background, 
 2. outdoor structures, 
 3. buildings, 
@@ -37,6 +35,8 @@ For the segmentation models, we implemented and evaluated several deep learning 
 | AER U-Net | 0.6964 | 
 
 From the results, we observe that the U-Net Xception model achieved the highest Dice score, followed closely by the standard U-Net and AER U-Net. The VGG U-Net model showed relatively lower performance in comparison.
+
+The model weights can be accessed on the /model_weights folder.
 
 ## References
 1. Nawaz, A., Akram, U., Salam, A. A., Ali, A. R., Ur Rehman, A., & Zeb, J. (2021). VGG-UNET for brain tumor segmentation and ensemble model for survival prediction. 2021 International Conference on Robotics and Automation in Industry (ICRAI), 1–6. https://doi.org/10.1109/ICRAI54018.2021.9651367
