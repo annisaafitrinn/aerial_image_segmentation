@@ -24,7 +24,7 @@ For segmentation, four different U-Net based architectures are employed as for c
 4. AER U-Net (Jonnala et al., 2025): An advanced U-Net variant integrating attention mechanisms or enhanced residual connections.
 
 ## Result
-In this project, we conducted experiments on aerial image segmentation using drone imagery retrieved from the Kaggle Drone Dataset. For the segmentation models, we implemented and evaluated several deep learning architectures based on relevant literature. Specifically, we explored the standard U-Net, U-Net Xception, VGG U-Net, and AER U-Net models. To assess their performance, we used the Dice coefficient as considered to be a common metric for segmentation quality. The results are summarized below:
+In this project, we conducted experiments on aerial image segmentation using drone imagery retrieved from the Kaggle Drone Dataset. For the segmentation models, we implemented and evaluated several deep learning architectures based on relevant literature. Specifically, we explored the standard U-Net, U-Net Xception, VGG U-Net, and AER U-Net models and implemented them with low number of params (~2M). To assess their performance, we used the Dice coefficient as considered to be a common metric for segmentation quality. The results are summarized below:
 
 | Model            | Dice Score |
 |------------------|------------|
